@@ -1,7 +1,4 @@
-let years = prompt("Введите год вашего рождения:");
-let today = new Date();
-let todayYear = today.getFullYear();
-let quantityYears = (todayYear - years);
+let quantityYears = prompt("Сколько вам лет?");
 let caseYear;
 let restYears = quantityYears % 10;
 if (quantityYears >= 5 && quantityYears <= 20) {
